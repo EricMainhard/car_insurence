@@ -1,0 +1,24 @@
+.plan-input.active::before{
+    box-shadow: 0px 0px 1px 2px;
+}
+
+.plan-input::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.plan-input.platinium::before{
+    background-color: #4A4645;
+}
+.plan-input.gold::before{
+    background-color: #ECC335;
+}
+.plan-input.silver::before{
+    background-color: #F8F8F8;
+}
+.plan-input.bronze::before{
+    background-color: #D4BA97;
+}
